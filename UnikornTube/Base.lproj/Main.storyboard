@@ -4,6 +4,24 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
+        <!--Sign InVC-->
+        <scene sceneID="yRF-9w-zXe">
+            <objects>
+                <viewController storyboardIdentifier="SignIn" id="SvT-Vx-BZl" customClass="SignInVC" customModule="UnikornTube" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AC5-eQ-VNN"/>
+                        <viewControllerLayoutGuide type="bottom" id="E9h-gO-h6f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QdY-Sq-ecl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mpH-pf-kfN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="667" y="-320"/>
+        </scene>
         <!--Home TableVC-->
         <scene sceneID="wa3-qI-3aM">
             <objects>
@@ -48,7 +66,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2400" y="399"/>
+            <point key="canvasLocation" x="2072" y="399"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uoU-gz-KG6">
@@ -68,6 +86,24 @@
             </objects>
             <point key="canvasLocation" x="-145" y="399"/>
         </scene>
+        <!--Sign UpVC-->
+        <scene sceneID="KH2-Ls-RNA">
+            <objects>
+                <viewController storyboardIdentifier="SignUp" id="fLO-MJ-mbL" customClass="SignUpVC" customModule="UnikornTube" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BHh-4d-pvb"/>
+                        <viewControllerLayoutGuide type="bottom" id="tO6-s9-d9p"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="U12-Af-vmR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mol-ht-HZc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1357" y="-320"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="uLg-Sz-zER">
             <objects>
@@ -84,7 +120,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M3E-RW-uWG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1588" y="399"/>
+            <point key="canvasLocation" x="1357" y="399"/>
         </scene>
     </scenes>
 </document>
