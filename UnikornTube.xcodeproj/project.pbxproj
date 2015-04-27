@@ -13,6 +13,7 @@
 		4C9EB10B1A9216E600A69E9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C9EB10A1A9216E600A69E9F /* Images.xcassets */; };
 		4C9EB10E1A9216E600A69E9F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9EB10C1A9216E600A69E9F /* LaunchScreen.xib */; };
 		4C9EB11A1A9216E600A69E9F /* UnikornTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EB1191A9216E600A69E9F /* UnikornTubeTests.swift */; };
+		6D3150511AEE6E3B0099D2C7 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3150501AEE6E3B0099D2C7 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4C9EB1131A9216E600A69E9F /* UnikornTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnikornTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9EB1181A9216E600A69E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C9EB1191A9216E600A69E9F /* UnikornTubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnikornTubeTests.swift; sourceTree = "<group>"; };
+		6D3150501AEE6E3B0099D2C7 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		4C9EB1001A9216E600A69E9F /* UnikornTube */ = {
 			isa = PBXGroup;
 			children = (
+				6D31504F1AEE6E210099D2C7 /* API */,
 				4C9EB1031A9216E600A69E9F /* AppDelegate.swift */,
 				4C9EB1051A9216E600A69E9F /* ViewController.swift */,
 				4C9EB1071A9216E600A69E9F /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				4C9EB1181A9216E600A69E9F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D31504F1AEE6E210099D2C7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6D3150501AEE6E3B0099D2C7 /* Alamofire.swift */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				TargetAttributes = {
 					4C9EB0FD1A9216E600A69E9F = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = THVB8X88ZF;
 					};
 					4C9EB1121A9216E600A69E9F = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -212,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D3150511AEE6E3B0099D2C7 /* Alamofire.swift in Sources */,
 				4C9EB1061A9216E600A69E9F /* ViewController.swift in Sources */,
 				4C9EB1041A9216E600A69E9F /* AppDelegate.swift in Sources */,
 			);
@@ -338,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UnikornTube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UnikornTube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -407,6 +422,7 @@
 				4C9EB11F1A9216E600A69E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C9EB1201A9216E600A69E9F /* Build configuration list for PBXNativeTarget "UnikornTubeTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +431,7 @@
 				4C9EB1221A9216E600A69E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
