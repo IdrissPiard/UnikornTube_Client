@@ -17,6 +17,8 @@
 		6D3150531AEE6FDB0099D2C7 /* HomeTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3150521AEE6FDB0099D2C7 /* HomeTableVC.swift */; };
 		6D3150551AEE70A50099D2C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3150541AEE70A50099D2C7 /* User.swift */; };
 		6D3150581AEE70CC0099D2C7 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3150571AEE70CC0099D2C7 /* Video.swift */; };
+		6D31505A1AEE7B500099D2C7 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3150591AEE7B500099D2C7 /* Comment.swift */; };
+		6D31505C1AEE7E3E0099D2C7 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D31505B1AEE7E3E0099D2C7 /* Playlist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		6D3150521AEE6FDB0099D2C7 /* HomeTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableVC.swift; sourceTree = "<group>"; };
 		6D3150541AEE70A50099D2C7 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		6D3150571AEE70CC0099D2C7 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		6D3150591AEE7B500099D2C7 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		6D31505B1AEE7E3E0099D2C7 /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,8 @@
 			children = (
 				6D3150541AEE70A50099D2C7 /* User.swift */,
 				6D3150571AEE70CC0099D2C7 /* Video.swift */,
+				6D3150591AEE7B500099D2C7 /* Comment.swift */,
+				6D31505B1AEE7E3E0099D2C7 /* Playlist.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -244,6 +250,8 @@
 				6D3150511AEE6E3B0099D2C7 /* Alamofire.swift in Sources */,
 				6D3150581AEE70CC0099D2C7 /* Video.swift in Sources */,
 				4C9EB1061A9216E600A69E9F /* ViewController.swift in Sources */,
+				6D31505C1AEE7E3E0099D2C7 /* Playlist.swift in Sources */,
+				6D31505A1AEE7B500099D2C7 /* Comment.swift in Sources */,
 				6D3150531AEE6FDB0099D2C7 /* HomeTableVC.swift in Sources */,
 				6D3150551AEE70A50099D2C7 /* User.swift in Sources */,
 				4C9EB1041A9216E600A69E9F /* AppDelegate.swift in Sources */,

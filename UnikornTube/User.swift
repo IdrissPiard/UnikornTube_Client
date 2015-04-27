@@ -15,13 +15,15 @@ class User: NSObject {
     var email : String
     var channelName : String
     var profilImgUrl : String
+    var subscriptions : [User]
     
-    init(id: Int, username: String, email: String, channelName : String, profilImgUrl: String) {
+    init(id: Int, username: String, email: String, channelName : String, profilImgUrl: String, subscriptions : [User]) {
         self.id = id
         self.username = username
         self.email = email
         self.channelName = channelName
         self.profilImgUrl = profilImgUrl
+        self.subscriptions = subscriptions
     }
     
 }
