@@ -14,6 +14,9 @@
 		4C9EB10E1A9216E600A69E9F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9EB10C1A9216E600A69E9F /* LaunchScreen.xib */; };
 		4C9EB11A1A9216E600A69E9F /* UnikornTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9EB1191A9216E600A69E9F /* UnikornTubeTests.swift */; };
 		6D3150511AEE6E3B0099D2C7 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3150501AEE6E3B0099D2C7 /* Alamofire.swift */; };
+		6D3150531AEE6FDB0099D2C7 /* HomeTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3150521AEE6FDB0099D2C7 /* HomeTableVC.swift */; };
+		6D3150551AEE70A50099D2C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3150541AEE70A50099D2C7 /* User.swift */; };
+		6D3150581AEE70CC0099D2C7 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3150571AEE70CC0099D2C7 /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		4C9EB1181A9216E600A69E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C9EB1191A9216E600A69E9F /* UnikornTubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnikornTubeTests.swift; sourceTree = "<group>"; };
 		6D3150501AEE6E3B0099D2C7 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		6D3150521AEE6FDB0099D2C7 /* HomeTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableVC.swift; sourceTree = "<group>"; };
+		6D3150541AEE70A50099D2C7 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6D3150571AEE70CC0099D2C7 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +87,12 @@
 			children = (
 				6D31504F1AEE6E210099D2C7 /* API */,
 				4C9EB1031A9216E600A69E9F /* AppDelegate.swift */,
+				6D3150521AEE6FDB0099D2C7 /* HomeTableVC.swift */,
 				4C9EB1051A9216E600A69E9F /* ViewController.swift */,
 				4C9EB1071A9216E600A69E9F /* Main.storyboard */,
 				4C9EB10A1A9216E600A69E9F /* Images.xcassets */,
 				4C9EB10C1A9216E600A69E9F /* LaunchScreen.xib */,
+				6D3150561AEE70AD0099D2C7 /* Models */,
 				4C9EB1011A9216E600A69E9F /* Supporting Files */,
 			);
 			path = UnikornTube;
@@ -121,6 +129,15 @@
 				6D3150501AEE6E3B0099D2C7 /* Alamofire.swift */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		6D3150561AEE70AD0099D2C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D3150541AEE70A50099D2C7 /* User.swift */,
+				6D3150571AEE70CC0099D2C7 /* Video.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D3150511AEE6E3B0099D2C7 /* Alamofire.swift in Sources */,
+				6D3150581AEE70CC0099D2C7 /* Video.swift in Sources */,
 				4C9EB1061A9216E600A69E9F /* ViewController.swift in Sources */,
+				6D3150531AEE6FDB0099D2C7 /* HomeTableVC.swift in Sources */,
+				6D3150551AEE70A50099D2C7 /* User.swift in Sources */,
 				4C9EB1041A9216E600A69E9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
