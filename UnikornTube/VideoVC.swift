@@ -12,6 +12,16 @@ class VideoVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        /*
+        let videos = [["toto", "titi", "tutu"], ["tata", "tete", "tyty"]]
+        
+        println(videos)
+        
+        for video in videos {
+            println(video)
+        }*/
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 

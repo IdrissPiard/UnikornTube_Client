@@ -8,10 +8,11 @@
 
 import UIKit
 
-class HomeTableVC: UITableViewController {
+class HomeTableVC: UITableViewController, ENSideMenuDelegate  {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.sideMenuController()?.sideMenu?.delegate = self
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -37,6 +38,24 @@ class HomeTableVC: UITableViewController {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
         return 0
+    }
+    
+    @IBAction func toggleSideMenu(sender: AnyObject) {
+        toggleSideMenuView()
+    }
+    
+    // MARK: - ENSideMenu Delegate
+    func sideMenuWillOpen() {
+        println("sideMenuWillOpen")
+    }
+    
+    func sideMenuWillClose() {
+        println("sideMenuWillClose")
+    }
+    
+    func sideMenuShouldOpenSideMenu() -> Bool {
+        println("sideMenuShouldOpenSideMenu")
+        return true
     }
 
     /*

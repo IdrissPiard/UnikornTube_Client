@@ -16,14 +16,16 @@ class User: NSObject {
     var channelName : String
     var profilImgUrl : String
     var subscriptions : [User]
+    var playlist : [Playlist]
     
-    init(id: Int, username: String, email: String, channelName : String, profilImgUrl: String, subscriptions : [User]) {
+    init(id: Int, username: String, email: String, channelName : String, profilImgUrl: String, subscriptions : [User], playlist : [Playlist]) {
         self.id = id
         self.username = username
         self.email = email
         self.channelName = channelName
         self.profilImgUrl = profilImgUrl
         self.subscriptions = subscriptions
+        self.playlist = playlist
     }
     
 }
