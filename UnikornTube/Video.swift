@@ -19,7 +19,7 @@ class Video: NSObject {
     var totalView: Int
     var totalLike: Int
     var totalDislike: Int
-    var userID: Int
+    var userID: Int 
     
     init(id: Int, title: String, coverURL: String, videoURL: String, vidDescription: String, comments: [Comment], totalView: Int, totalLike: Int, totalDislike: Int, userID: Int) {
         
@@ -33,6 +33,20 @@ class Video: NSObject {
         self.totalLike = totalLike
         self.totalDislike = totalDislike
         self.userID = userID
+    }
+    
+    init(id: Int, title: String, videoURL: String, totalView: Int, totalLike: Int, totalDislike: Int, userID: Int) {
+        
+        self.id = id
+        self.title = title
+        self.videoURL = videoURL
+        self.totalView = totalView
+        self.totalLike = totalLike
+        self.totalDislike = totalDislike
+        self.userID = userID
+        self.coverURL = ""
+        self.comments = []
+        self.vidDescription = ""
     }
    
 }

@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 
 class VideoVC: UIViewController {
 
@@ -28,6 +30,12 @@ class VideoVC: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+            var destination = segue.destinationViewController as! AVPlayerViewController
+            var url = NSURL(string: "http://192.168.200.40:9000/video/3/stream")
+            destination.player = AVPlayer(URL: url)
     }
 
 

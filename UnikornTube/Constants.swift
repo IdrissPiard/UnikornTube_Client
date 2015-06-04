@@ -11,7 +11,7 @@ import UIKit
 struct Constants{
     
     struct Server {
-        static let baseUrl = "http://127.0.0.1/"
+        static let baseUrl = "http://192.168.200.40:9000/"
     }
     
    

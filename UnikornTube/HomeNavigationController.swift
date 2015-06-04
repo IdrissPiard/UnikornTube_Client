@@ -12,9 +12,11 @@ class HomeNavigationController: ENSideMenuNavigationController, ENSideMenuDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
-        self.navigationBar.shadowImage = UIImage()
-        self.navigationBar.translucent = true
+        self.navigationBar.barTintColor = UIColor.redColor()
+        self.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        //self.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
+        //self.navigationBar.shadowImage = UIImage()
+        //self.navigationBar.translucent = true
         
         sideMenu = ENSideMenu(sourceView: self.view, menuTableViewController: MenuTableVC(), menuPosition:.Left)
         //sideMenu?.delegate = self //optional

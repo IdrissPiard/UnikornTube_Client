@@ -28,6 +28,23 @@
 		6D77AB571B1DF131003BF50E /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D77AB551B1DF131003BF50E /* ENSideMenuNavigationController.swift */; };
 		6D77AB5A1B1DF2E1003BF50E /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D77AB591B1DF2E1003BF50E /* HomeNavigationController.swift */; };
 		6D77AB5C1B1DFA17003BF50E /* MenuTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D77AB5B1B1DFA17003BF50E /* MenuTableVC.swift */; };
+		6D77AB601B1E18C1003BF50E /* VideoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D77AB5F1B1E18C1003BF50E /* VideoListCell.swift */; };
+		6D77AB621B1E1911003BF50E /* SubscriptionListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D77AB611B1E1911003BF50E /* SubscriptionListCell.swift */; };
+		6D77AB651B1E5D2D003BF50E /* VideoHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D77AB641B1E5D2D003BF50E /* VideoHolder.swift */; };
+		6D77AB671B1E643E003BF50E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D77AB661B1E643E003BF50E /* SwiftyJSON.swift */; };
+		6D77AB9E1B1E849C003BF50E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77AB8C1B1E849C003BF50E /* AFHTTPRequestOperation.m */; };
+		6D77AB9F1B1E849C003BF50E /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77AB8E1B1E849C003BF50E /* AFHTTPRequestOperationManager.m */; };
+		6D77ABA01B1E849C003BF50E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77AB901B1E849C003BF50E /* AFHTTPSessionManager.m */; };
+		6D77ABA11B1E849C003BF50E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77AB931B1E849C003BF50E /* AFNetworkReachabilityManager.m */; };
+		6D77ABA21B1E849C003BF50E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77AB951B1E849C003BF50E /* AFSecurityPolicy.m */; };
+		6D77ABA31B1E849C003BF50E /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77AB971B1E849C003BF50E /* AFURLConnectionOperation.m */; };
+		6D77ABA41B1E849C003BF50E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77AB991B1E849C003BF50E /* AFURLRequestSerialization.m */; };
+		6D77ABA51B1E849C003BF50E /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77AB9B1B1E849C003BF50E /* AFURLResponseSerialization.m */; };
+		6D77ABA61B1E849C003BF50E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77AB9D1B1E849C003BF50E /* AFURLSessionManager.m */; };
+		6D77ABA81B1F88F6003BF50E /* UploadVideoVCold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D77ABA71B1F88F6003BF50E /* UploadVideoVCold.swift */; };
+		6D77ABAA1B1F9104003BF50E /* UploadVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D77ABA91B1F9104003BF50E /* UploadVideoVC.swift */; };
+		6D77ABB01B1FC1D9003BF50E /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D77ABAF1B1FC1D9003BF50E /* AFNetworkActivityLogger.m */; };
+		6D77ABB21B200E0A003BF50E /* SubscriptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D77ABB11B200E0A003BF50E /* SubscriptionsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +83,35 @@
 		6D77AB551B1DF131003BF50E /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
 		6D77AB591B1DF2E1003BF50E /* HomeNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
 		6D77AB5B1B1DFA17003BF50E /* MenuTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableVC.swift; sourceTree = "<group>"; };
+		6D77AB5F1B1E18C1003BF50E /* VideoListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoListCell.swift; sourceTree = "<group>"; };
+		6D77AB611B1E1911003BF50E /* SubscriptionListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionListCell.swift; sourceTree = "<group>"; };
+		6D77AB641B1E5D2D003BF50E /* VideoHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoHolder.swift; sourceTree = "<group>"; };
+		6D77AB661B1E643E003BF50E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		6D77AB861B1E8426003BF50E /* UnikornTube-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnikornTube-Bridging-Header.h"; sourceTree = "<group>"; };
+		6D77AB8B1B1E849C003BF50E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		6D77AB8C1B1E849C003BF50E /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		6D77AB8D1B1E849C003BF50E /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		6D77AB8E1B1E849C003BF50E /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		6D77AB8F1B1E849C003BF50E /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		6D77AB901B1E849C003BF50E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		6D77AB911B1E849C003BF50E /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		6D77AB921B1E849C003BF50E /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		6D77AB931B1E849C003BF50E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		6D77AB941B1E849C003BF50E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		6D77AB951B1E849C003BF50E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		6D77AB961B1E849C003BF50E /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		6D77AB971B1E849C003BF50E /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		6D77AB981B1E849C003BF50E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		6D77AB991B1E849C003BF50E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		6D77AB9A1B1E849C003BF50E /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		6D77AB9B1B1E849C003BF50E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		6D77AB9C1B1E849C003BF50E /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		6D77AB9D1B1E849C003BF50E /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		6D77ABA71B1F88F6003BF50E /* UploadVideoVCold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadVideoVCold.swift; sourceTree = "<group>"; };
+		6D77ABA91B1F9104003BF50E /* UploadVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadVideoVC.swift; sourceTree = "<group>"; };
+		6D77ABAE1B1FC1D9003BF50E /* AFNetworkActivityLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityLogger.h; sourceTree = "<group>"; };
+		6D77ABAF1B1FC1D9003BF50E /* AFNetworkActivityLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityLogger.m; sourceTree = "<group>"; };
+		6D77ABB11B200E0A003BF50E /* SubscriptionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,18 +157,17 @@
 				6D77AB531B1DF0E8003BF50E /* Library */,
 				6D77AB501B1DD4DC003BF50E /* Utils */,
 				6D31504F1AEE6E210099D2C7 /* API */,
+				6D77AB5D1B1E0AF6003BF50E /* ViewController */,
+				6D77AB5E1B1E188A003BF50E /* Cells */,
+				6D3150561AEE70AD0099D2C7 /* Models */,
+				6D31505D1AEE962D0099D2C7 /* Manager */,
+				6D77AB631B1E5D0D003BF50E /* Holder */,
 				4C9EB1031A9216E600A69E9F /* AppDelegate.swift */,
-				6D3150521AEE6FDB0099D2C7 /* HomeTableVC.swift */,
-				6D3150601AEE96690099D2C7 /* SignInVC.swift */,
-				6D3150621AEE96D30099D2C7 /* SignUpVC.swift */,
-				4C9EB1051A9216E600A69E9F /* VideoVC.swift */,
-				6D77AB591B1DF2E1003BF50E /* HomeNavigationController.swift */,
 				4C9EB1071A9216E600A69E9F /* Main.storyboard */,
 				4C9EB10A1A9216E600A69E9F /* Images.xcassets */,
 				4C9EB10C1A9216E600A69E9F /* LaunchScreen.xib */,
-				6D31505D1AEE962D0099D2C7 /* Manager */,
-				6D3150561AEE70AD0099D2C7 /* Models */,
 				4C9EB1011A9216E600A69E9F /* Supporting Files */,
+				6D77AB861B1E8426003BF50E /* UnikornTube-Bridging-Header.h */,
 			);
 			path = UnikornTube;
 			sourceTree = "<group>";
@@ -155,6 +200,7 @@
 		6D31504F1AEE6E210099D2C7 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				6D77AB8A1B1E849C003BF50E /* AFNetworking */,
 				6D77AB4E1B1D0093003BF50E /* SCLAlertView.swift */,
 				6D3150501AEE6E3B0099D2C7 /* Alamofire.swift */,
 			);
@@ -184,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				6D77AB511B1DD4F7003BF50E /* Constants.swift */,
+				6D77AB661B1E643E003BF50E /* SwiftyJSON.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -203,6 +250,66 @@
 				6D77AB5B1B1DFA17003BF50E /* MenuTableVC.swift */,
 			);
 			name = SideMenu;
+			sourceTree = "<group>";
+		};
+		6D77AB5D1B1E0AF6003BF50E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D77AB591B1DF2E1003BF50E /* HomeNavigationController.swift */,
+				6D3150521AEE6FDB0099D2C7 /* HomeTableVC.swift */,
+				6D3150601AEE96690099D2C7 /* SignInVC.swift */,
+				6D3150621AEE96D30099D2C7 /* SignUpVC.swift */,
+				4C9EB1051A9216E600A69E9F /* VideoVC.swift */,
+				6D77ABA71B1F88F6003BF50E /* UploadVideoVCold.swift */,
+				6D77ABA91B1F9104003BF50E /* UploadVideoVC.swift */,
+				6D77ABB11B200E0A003BF50E /* SubscriptionsVC.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		6D77AB5E1B1E188A003BF50E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6D77AB5F1B1E18C1003BF50E /* VideoListCell.swift */,
+				6D77AB611B1E1911003BF50E /* SubscriptionListCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		6D77AB631B1E5D0D003BF50E /* Holder */ = {
+			isa = PBXGroup;
+			children = (
+				6D77AB641B1E5D2D003BF50E /* VideoHolder.swift */,
+			);
+			name = Holder;
+			sourceTree = "<group>";
+		};
+		6D77AB8A1B1E849C003BF50E /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				6D77ABAE1B1FC1D9003BF50E /* AFNetworkActivityLogger.h */,
+				6D77ABAF1B1FC1D9003BF50E /* AFNetworkActivityLogger.m */,
+				6D77AB8B1B1E849C003BF50E /* AFHTTPRequestOperation.h */,
+				6D77AB8C1B1E849C003BF50E /* AFHTTPRequestOperation.m */,
+				6D77AB8D1B1E849C003BF50E /* AFHTTPRequestOperationManager.h */,
+				6D77AB8E1B1E849C003BF50E /* AFHTTPRequestOperationManager.m */,
+				6D77AB8F1B1E849C003BF50E /* AFHTTPSessionManager.h */,
+				6D77AB901B1E849C003BF50E /* AFHTTPSessionManager.m */,
+				6D77AB911B1E849C003BF50E /* AFNetworking.h */,
+				6D77AB921B1E849C003BF50E /* AFNetworkReachabilityManager.h */,
+				6D77AB931B1E849C003BF50E /* AFNetworkReachabilityManager.m */,
+				6D77AB941B1E849C003BF50E /* AFSecurityPolicy.h */,
+				6D77AB951B1E849C003BF50E /* AFSecurityPolicy.m */,
+				6D77AB961B1E849C003BF50E /* AFURLConnectionOperation.h */,
+				6D77AB971B1E849C003BF50E /* AFURLConnectionOperation.m */,
+				6D77AB981B1E849C003BF50E /* AFURLRequestSerialization.h */,
+				6D77AB991B1E849C003BF50E /* AFURLRequestSerialization.m */,
+				6D77AB9A1B1E849C003BF50E /* AFURLResponseSerialization.h */,
+				6D77AB9B1B1E849C003BF50E /* AFURLResponseSerialization.m */,
+				6D77AB9C1B1E849C003BF50E /* AFURLSessionManager.h */,
+				6D77AB9D1B1E849C003BF50E /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,19 +414,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D31505F1AEE96420099D2C7 /* UserManager.swift in Sources */,
+				6D77ABB21B200E0A003BF50E /* SubscriptionsVC.swift in Sources */,
+				6D77ABB01B1FC1D9003BF50E /* AFNetworkActivityLogger.m in Sources */,
 				6D3150511AEE6E3B0099D2C7 /* Alamofire.swift in Sources */,
 				6D77AB561B1DF131003BF50E /* ENSideMenu.swift in Sources */,
+				6D77ABAA1B1F9104003BF50E /* UploadVideoVC.swift in Sources */,
 				6D77AB571B1DF131003BF50E /* ENSideMenuNavigationController.swift in Sources */,
+				6D77ABA31B1E849C003BF50E /* AFURLConnectionOperation.m in Sources */,
 				6D3150581AEE70CC0099D2C7 /* Video.swift in Sources */,
+				6D77AB651B1E5D2D003BF50E /* VideoHolder.swift in Sources */,
 				6D3150631AEE96D30099D2C7 /* SignUpVC.swift in Sources */,
 				6D77AB5A1B1DF2E1003BF50E /* HomeNavigationController.swift in Sources */,
 				4C9EB1061A9216E600A69E9F /* VideoVC.swift in Sources */,
 				6D3150611AEE96690099D2C7 /* SignInVC.swift in Sources */,
+				6D77AB9E1B1E849C003BF50E /* AFHTTPRequestOperation.m in Sources */,
 				6D31505C1AEE7E3E0099D2C7 /* Playlist.swift in Sources */,
+				6D77ABA11B1E849C003BF50E /* AFNetworkReachabilityManager.m in Sources */,
+				6D77AB621B1E1911003BF50E /* SubscriptionListCell.swift in Sources */,
+				6D77ABA61B1E849C003BF50E /* AFURLSessionManager.m in Sources */,
+				6D77AB671B1E643E003BF50E /* SwiftyJSON.swift in Sources */,
+				6D77AB9F1B1E849C003BF50E /* AFHTTPRequestOperationManager.m in Sources */,
+				6D77ABA01B1E849C003BF50E /* AFHTTPSessionManager.m in Sources */,
 				6D77AB521B1DD4F7003BF50E /* Constants.swift in Sources */,
+				6D77ABA51B1E849C003BF50E /* AFURLResponseSerialization.m in Sources */,
+				6D77ABA41B1E849C003BF50E /* AFURLRequestSerialization.m in Sources */,
+				6D77AB601B1E18C1003BF50E /* VideoListCell.swift in Sources */,
+				6D77ABA81B1F88F6003BF50E /* UploadVideoVCold.swift in Sources */,
 				6D31505A1AEE7B500099D2C7 /* Comment.swift in Sources */,
 				6D3150531AEE6FDB0099D2C7 /* HomeTableVC.swift in Sources */,
 				6D3150551AEE70A50099D2C7 /* User.swift in Sources */,
+				6D77ABA21B1E849C003BF50E /* AFSecurityPolicy.m in Sources */,
 				6D77AB4F1B1D0093003BF50E /* SCLAlertView.swift in Sources */,
 				4C9EB1041A9216E600A69E9F /* AppDelegate.swift in Sources */,
 				6D77AB5C1B1DFA17003BF50E /* MenuTableVC.swift in Sources */,
@@ -447,10 +571,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UnikornTube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UnikornTube/UnikornTube-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -458,10 +585,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UnikornTube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UnikornTube/UnikornTube-Bridging-Header.h";
 			};
 			name = Release;
 		};
